@@ -3,7 +3,7 @@
 body, h1, h2, h3, p, ul, li, form, button, input[type="text"], input[type="date"], input[type="time"] {
   margin: 0;
   padding: 0;
-  border-radius: 10px;
+  border-radius: 10px; /* Rounded padding */
 }
 
 body {
@@ -292,27 +292,19 @@ button:hover {
   margin: 10px auto;
 }
 
-
-
-
-/* Your existing CSS rules here */
-
-/* Add this style for the calendar to fit within the padding */
 #calendar {
-  display: none; /* Hide the calendar by default */
+  display: none; 
   width: 100%;
   margin: 0 auto;
-  background-color: #15191e; /* Adjust the background color to match your theme */
+  background-color: #15191e;
   color: #fff;
   border-radius: 5px;
 }
 
-/* Additional styles for the calendar */
 .fc-toolbar {
   margin-bottom: 20px;
 }
 
-/* Customize the button styles to match your theme */
 .fc-button {
   background-color: #444;
   color: #fff;
@@ -326,18 +318,92 @@ button:hover {
   background-color: #666;
 }
 
-/* Change the default color of events */
 .fc-event {
-  background-color: #7289da; /* Adjust this to your desired event color */
-  border-color: #7289da; /* Adjust this to your desired event color */
+  background-color: #7289da;
+  border-color: #7289da;
 }
 
-/* Customize the event details display on click */
 .expanded-event {
   font-size: 14px;
   color: #fff;
-  background-color: #7289da; /* Adjust this to your desired event color */
+  background-color: #7289da; 
   border-radius: 5px;
   padding: 5px;
 }
+#upcoming-events-list li {
+  flex: 0 0 calc(33.33% - 10px);
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+}
 
+.event-info {
+  flex-grow: 1;
+  box-sizing: border-box; 
+}
+
+.room-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.room-owner {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.event-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.event-description {
+  margin-top: 0; 
+}
+.event-info p {
+  margin: 0;
+}
+#upcoming-events .event-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-images {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.thumbnail-container {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.room-thumbnail {
+  max-width: 100px;
+}
+
+.avatar-container {
+  margin-top: 10px;
+}
+
+.avatar-default-size {
+  width: 100px;
+  height: 150px;
+}
+
+.go-to-room {
+  margin-top: 10px; 
+}
