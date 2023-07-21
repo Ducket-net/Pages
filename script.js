@@ -122,3 +122,60 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Sample events data (replace with your own event data)
+  const events = [
+    {
+      title: "Event 1",
+      start: "2023-07-21T10:00:00",
+      end: "2023-07-21T12:00:00",
+      host: "Habbo - Bot",
+      description: "Test",
+    },
+    {
+      title: "Habbo Falling Furni",
+      start: "2023-07-23T14:30:00",
+      end: "2023-07-23T16:00:00",
+      host: "Femq",
+      description: "Test",
+    },
+    // Add more events as needed
+  ];
+  $("#calendar").fullCalendar({
+    header: {
+      left: "prev,next today",
+      center: "title",
+      right: "month,agendaWeek,agendaDay",
+    },
+    defaultView: "month",
+    navLinks: true,
+    editable: false,
+    eventLimit: true,
+    events: events,
+    eventRender: function (event, element) {
+      element.find(".fc-title").append("<br/><b>Host:</b> " + event.host);
+      element.find(".fc-title").append("<br/><b>Description:</b> " + event.description);
+    },
+  });
+
+  const calendarSection = document.getElementById("currently-scheduled");
+  const calendar = document.getElementById("calendar");
+  let isCalendarExpanded = false;
+
+  function toggleCalendarVisibility() {
+    if (isCalendarExpanded) {
+      calendar.style.display = "none";
+      isCalendarExpanded = false;
+    } else {
+      calendar.style.display = "block";
+      isCalendarExpanded = true;
+    }
+  }
+
+  document.getElementById("currently-scheduled").addEventListener("click", function (event) {
+    if (event.target.classList.contains("expand-button")) {
+      toggleCalendarVisibility();
+    }
+  });
+});

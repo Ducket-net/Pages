@@ -291,3 +291,53 @@ button:hover {
 #clock-in .drop-content button {
   margin: 10px auto;
 }
+
+
+
+
+/* Your existing CSS rules here */
+
+/* Add this style for the calendar to fit within the padding */
+#calendar {
+  display: none; /* Hide the calendar by default */
+  width: 100%;
+  margin: 0 auto;
+  background-color: #15191e; /* Adjust the background color to match your theme */
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Additional styles for the calendar */
+.fc-toolbar {
+  margin-bottom: 20px;
+}
+
+/* Customize the button styles to match your theme */
+.fc-button {
+  background-color: #444;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fc-button:hover {
+  background-color: #666;
+}
+
+/* Change the default color of events */
+.fc-event {
+  background-color: #7289da; /* Adjust this to your desired event color */
+  border-color: #7289da; /* Adjust this to your desired event color */
+}
+
+/* Customize the event details display on click */
+.expanded-event {
+  font-size: 14px;
+  color: #fff;
+  background-color: #7289da; /* Adjust this to your desired event color */
+  border-radius: 5px;
+  padding: 5px;
+}
+
