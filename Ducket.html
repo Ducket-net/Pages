@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ducket - Events Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="page-container">
+    <div class="background-image"></div>
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <img src="logo.png" alt="Ducket Logo" width="40" height="40">
+          <h1>Ducket - Events Page</h1>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">&#9776;</button>
+          <div class="dropdown-content">
+            <a href="#">Example 1</a>
+            <a href="#">Example 2</a>
+            <a href="#">Example 3</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="clock-in" class="dashboard dashboard-link">
+          <h2 class="expand-button">Clock In</h2>
+          <div class="drop-content">
+            <form id="clock-in-form">
+              <div class="form-group">
+                <label for="event-name-clock">Event Name:</label>
+                <input type="text" id="event-name-clock" name="event-name" required>
+              </div>
+              <div class="form-group">
+                <label for="staff-member-clock">Staff Member:</label>
+                <input type="text" id="staff-member-clock" name="staff-member" required>
+              </div>
+              <div class="form-group">
+                <button type="submit" id="clock-in-button">Clock In</button>
+              </div>
+            </form>
+            <div id="clock-timer">
+              <p id="clock-timer-display">00:00:00</p>
+            </div>
+          </div>
+        </section>
+        <section id="previously-hosted" class="dashboard">
+          <h2>Previously Hosted</h2>
+          <!-- Backend Content -->
+        </section>
+
+        <section id="monthly-stats" class="dashboard dashboard-link">
+          <h2>Monthly Stats</h2>
+          <div id="scheduleChartContainer">
+            <canvas id="scheduleChart"></canvas>
+          </div>
+        </section>
+
+        <section id="event-scheduler" class="dashboard dashboard-link">
+          <h2 class="expand-button">Event Scheduler</h2>
+          <div class="drop-content">
+            <form>
+              <div class="form-group">
+                <label for="event-name">Event Name:</label>
+                <input type="text" id="event-name" name="event-name" required>
+              </div>
+              <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+              </div>
+              <div class="form-group">
+                <label for="time">Time Slot:</label>
+                <input type="time" id="time" name="time" required>
+              </div>
+              <div class="form-group">
+                <label for="host-name">Host Name:</label>
+                <input type="text" id="host-name" name="host-name" required>
+              </div>
+              <div class="form-group">
+                <button type="submit">Schedule Event</button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section id="currently-scheduled" class="dashboard dashboard-link">
+          <h2 class="expand-button">Currently Scheduled Events</h2>
+          <div class="drop-content">
+            <!-- Backend Content -->
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
