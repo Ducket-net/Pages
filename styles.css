@@ -3,7 +3,7 @@
 body, h1, h2, h3, p, ul, li, form, button, input[type="text"], input[type="date"], input[type="time"] {
   margin: 0;
   padding: 0;
-  border-radius: 10px; /* Rounded padding */
+  border-radius: 10px;
 }
 
 body {
