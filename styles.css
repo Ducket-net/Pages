@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-body, h1, h2, h3, p, ul, li, form, button {
+body, h1, h2, h3, p, ul, li, form, button, input[type="text"], input[type="date"], input[type="time"] {
   margin: 0;
   padding: 0;
+  border-radius: 10px; /* Rounded padding */
 }
 
 body {
@@ -49,7 +50,7 @@ img {
 header {
   background-color: transparent;
   padding: 10px 0;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 header h1 {
@@ -63,22 +64,22 @@ header h1 {
 }
 
 .dropbtn {
-  background-color: #222;
+  background-color: rgba(17, 17, 17, 0.6);
   color: white;
   font-size: 16px;
   border: none;
   cursor: pointer;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #222;
+  background-color: rgba(17, 17, 17, 0.6);
   min-width: 120px;
   z-index: 1;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
   top: 30px;
   right: 0;
 }
@@ -111,7 +112,7 @@ header h1 {
   color: #fff;
   padding: 10px;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
   cursor: pointer;
 }
 
@@ -139,7 +140,7 @@ input[type="time"] {
   border: 1px solid #444;
   background-color: #222;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
 }
 
 button {
@@ -148,7 +149,7 @@ button {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
 }
 
 button:hover {
@@ -198,7 +199,7 @@ button:hover {
   color: #fff;
   padding: 10px;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
 }
 
 .event-scheduler h2 {
@@ -208,7 +209,7 @@ button:hover {
 .event-scheduler .drop-content {
   display: none;
   background-color: #111;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
   position: absolute;
   top: 100%;
   right: 10px;
@@ -248,7 +249,7 @@ button:hover {
   border: 1px solid #444;
   background-color: #222;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded padding */
 }
 
 #event-scheduler .drop-content button {
