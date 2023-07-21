@@ -107,7 +107,7 @@ header h1 {
 
 .dashboard {
   flex-basis: calc(33.33% - 20px);
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0.6);
   color: #fff;
   padding: 10px;
   margin: 10px;
@@ -264,7 +264,7 @@ button:hover {
 
 #clock-in .drop-content {
   display: none;
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0.0);
 }
 
 #clock-in.expanded .drop-content {
