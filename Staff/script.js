@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           twitterContainer.appendChild(twitterLink);
 
           const twitterLogo = document.createElement("img");
-          twitterLogo.src = "http://localhost:8000/images/twitter.png"; // Replace with the actual path to your Twitter logo image
+          twitterLogo.src = "http://localhost:8000/images/twitter2.png"; // Replace with the actual path to your Twitter logo image
           twitterLogo.alt = "Twitter";
           twitterLink.appendChild(twitterLogo);
 
