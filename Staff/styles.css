@@ -1,9 +1,7 @@
-/* Hide scrollbar for Firefox */
 body {
   scrollbar-width: none;
 }
 
-/* Hide scrollbar for Chrome, Edge, and Safari */
 body::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -31,7 +29,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Ensure it stays on top of other elements */
+  z-index: 1000;
 }
 
 .announcement-text {
@@ -82,7 +80,7 @@ li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  position: relative; /* Ensure proper stacking of elements */
+  position: relative;
 }
 
 .avatar-image {
@@ -98,7 +96,6 @@ span {
   font-size: 16px;
 }
 
-/* Button Styles for Different Roles */
 .button-container li {
   position: relative;
   height: 60px;
@@ -114,70 +111,67 @@ span {
 }
 
 .button-container li::before {
-  content: ""; /* Required for pseudo-elements */
+  content: "";
   position: absolute;
-  top: 5px; /* Position the stripe above the button */
-  left: 5px; /* Add some negative left value to align the stripe with the border */
-  width: calc(100% + 10px); /* Add 10px to cover the entire button width with the stripe */
-  height: 5px; /* Height of the stripe */
-  background-color: rgba(255, 255, 255, 0.2); /* White color with slight transparency (adjust the alpha value as needed) */
-  z-index: 1; /* Ensure the stripe is above the button */
+  top: 5px;
+  left: 5px;
+  width: calc(100% + 10px);
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 1;
 }
+
 .button-container li::after {
-  content: ""; /* Required for pseudo-elements */
+  content: "";
   position: absolute;
   top: 0;
-  right: 0; /* Position the overlay on the right side */
+  right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), var(--button-color)); /* Update the gradient color to use the custom color */
-  border-radius: 10px; /* Match the border radius of the button */
-  z-index: 1; /* Ensure the overlay is above the background image */
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), var(--button-color));
+  border-radius: 10px;
+  z-index: 1;
 }
+
 .button-container li:hover {
-  /* Add the hover effect to move the background image to the right */
   background-position: 0px 80px;
 }
+
 .button-container li:hover .avatar-image {
-  /* Scale the avatar image back to its original size on hover */
   transform: scale(1.2);
-  /* Move the image up on hover */
   margin-top: -5;
 }
+
 .button-container li:hover span {
-  /* Move the text to the right on hover */
   transform: translateX(10px);
 }
 
 .button-container li span {
   z-index: 2;
   text-shadow: 1px 1px 2px black;
-  /* Add a transition to move the text to the right */
   transition: transform 0.2s ease-out;
 }
 
-/* Specific colors for each role */
-.owner-button { --button-color: #5bbafa; /* Light Blue */ }
-.general-manager-button { --button-color: #eaf054; /* Yellow */ }
-.events-manager-button { --button-color: #be66f3; /* Lime Green */ }
-.social-manager-button { --button-color: #a86ff8; /* Gold */ }
-.community-events-manager-button { --button-color: #9B59B6; /* Purple */ }
-.podcaster-button { --button-color: #cfbe15; /* Orange Red */ }
-.developer-button { --button-color: #00CED1; /* Dark Turquoise */ }
-.moderator-button { --button-color: #FF8C00; /* Dark Orange */ }
-.head-designer-button { --button-color: #7CFD9E; /* Sea Green */ }
-.graphics-designer-button { --button-color: #FF6347; /* Tomato */ }
-.server-developer-button { --button-color: #4682B4; /* Steel Blue */ }
-.wired-master-button { --button-color: #9932CC; /* Dark Orchid */ }
-.values-button { --button-color: #54ABC2; /* Gold */ }
-.builder-button { --button-color: #000080; /* Navy */ }
-.room-builder-button { --button-color: #A9A9A9; /* Dark Gray */ }
-.events-assistant-button { --button-color: #008000; /* Green */ }
-.events-host-button { --button-color: #71368A; /* Orange Red */ }
-.news-manager-button { --button-color: #ff992b; /* Orange Red */ }
-.staff-button { --button-color: #800080; /* Purple */ }
+.owner-button { --button-color: #5bbafa; }
+.general-manager-button { --button-color: #eaf054; }
+.events-manager-button { --button-color: #be66f3; }
+.social-manager-button { --button-color: #a86ff8; }
+.community-events-manager-button { --button-color: #9B59B6; }
+.podcaster-button { --button-color: #cfbe15; }
+.developer-button { --button-color: #00CED1; }
+.moderator-button { --button-color: #FF8C00; }
+.head-designer-button { --button-color: #7CFD9E; }
+.graphics-designer-button { --button-color: #FF6347; }
+.server-developer-button { --button-color: #4682B4; }
+.wired-master-button { --button-color: #9932CC; }
+.values-button { --button-color: #54ABC2; }
+.builder-button { --button-color: #000080; }
+.room-builder-button { --button-color: #A9A9A9; }
+.events-assistant-button { --button-color: #008000; }
+.events-host-button { --button-color: #71368A; }
+.news-manager-button { --button-color: #ff992b; }
+.staff-button { --button-color: #800080; }
 
-/* Set background image for each button */
 .owner-button { background-image: url("http://localhost:8000/images/web_view_bg_cn2.gif"); }
 .general-manager-button { background-image: url("http://localhost:8000/images/web_view_bg_ru.gif"); }
 .events-manager-button { background-image: url("http://localhost:8000/images/lpromo_Blog_Promo.png"); }
@@ -198,7 +192,6 @@ span {
 .news-manager-button { background-image: url("path/to/ducket-staff-button-image.jpg"); }
 .staff-button { background-image: url("path/to/ducket-staff-button-image.jpg"); }
 
-/* Custom CSS for member descriptions */
 .member-description {
   font-size: 14px;
   color: white;
@@ -211,18 +204,19 @@ span {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.3s ease, right 0.3s;
-  z-index: 2; /* Set the z-index to 2 to ensure it is above other elements */
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Add black outline */
+  z-index: 2;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 li:hover .member-description {
-  visibility: visible; /* Show on hover */
-  opacity: 1; /* Fade in */
-  right: 10%; /* Slide in from the right */
+  visibility: visible;
+  opacity: 1;
+  right: 10%;
 }
+
 .back-to-home {
   font-size: 14px;
-  font-weight: itatlic;
+  font-weight: italic;
   text-decoration: none;
   color: #6B7280;
   margin-left: -5px;
@@ -237,10 +231,9 @@ li:hover .member-description {
   align-items: center;
 }
 
-/* Use the "fa-arrow-left" icon */
 .back-to-home::before {
-  font-family: "Font Awesome 6 Free"; /* Use the Font Awesome font family */
-  content: "\f060"; /* Unicode of the "fa-arrow-left" icon */
+  font-family: "Font Awesome 6 Free";
+  content: "\f060";
   font-weight: 900;
   margin-right: 5px;
 }
@@ -250,8 +243,8 @@ li:hover .member-description {
 }
 
 .back-to-home:active {
-  /* Add active effect if needed */
 }
+
 .twitter-container {
   display: none; 
   position: fixed; 
@@ -262,6 +255,7 @@ li:hover .member-description {
   transform: translateX(50%); 
   transition: transform 0.3s ease-in-out;
 }
+
 .twitter-container.show-twitter {
   display: block; 
   transform: translateX(0); 
