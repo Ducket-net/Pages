@@ -1,0 +1,257 @@
+{
+  "roles": [
+    {
+      "role": "Owner",
+      "members": [
+        {
+          "name": "LeeSafe",
+          "description": "Founder",
+          "twitter": "https://twitter.com/LeeSafeHabbo"
+        },
+        {
+          "name": "QoQ",
+          "description": "Founder",
+          "twitter": "https://twitter.com/wes_wim"
+        }
+      ]
+    },
+    {
+      "role": "General Manager",
+      "members": [
+        {
+          "name": "Femq",
+          "description": "General Manager",
+          "twitter": "https://twitter.com/FemqHabbo"
+        },
+        {
+          "name": "General Manager 2",
+          "description": "Another General Manager"
+        }
+      ]
+    },
+    {
+      "role": "Events Manager",
+      "members": [
+        {
+          "name": "Laurennn",
+          "description": "Events Manager",
+          "twitter": "https://twitter.com/lauHabbo"
+        },
+        {
+          "name": "Events Manager 2",
+          "description": "Another Events Manager"
+        }
+      ]
+    },
+    {
+      "role": "Community Events Manager",
+      "members": [
+        {
+          "name": "AmySkates...",
+          "description": "Community Events Manager",
+          "twitter": ""
+        },
+        {
+          "name": "Community Manager 2",
+          "description": "Another Community Events Manager"
+        }
+      ]
+    },
+    {
+      "role": "Events Assistant",
+      "members": [
+        {
+          "name": "Events Assistant 1",
+          "description": "Events Assistant",
+          "twitter": ""
+        },
+        {
+          "name": "Events Assistant 2",
+          "description": "Another Events Assistant"
+        }
+      ]
+    },
+    {
+      "role": "News Manager",
+      "members": [
+        {
+          "name": "Aloeveran",
+          "description": "News Manager",
+          "twitter": ""
+        },
+        {
+          "name": "News Manager 2",
+          "description": "Another News Manager"
+        }
+      ]
+    },
+    {
+      "role": "Social Manager",
+      "members": [
+        {
+          "name": "xJessyx",
+          "description": "Social Manager",
+          "twitter": "https://twitter.com/JessyyHabbo"
+        },
+        {
+          "name": "Social Manager 2",
+          "description": "Another Social Manager"
+        }
+      ]
+    },
+    {
+      "role": "Events Host",
+      "members": [
+        {
+          "name": "Krystal",
+          "description": "Events Host",
+          "twitter": "https://twitter.com/KrystalHabbo"
+        },
+        {
+          "name": "Aloeveran",
+          "description": "Events Host"
+        }
+      ]
+    },
+    {
+      "role": "Podcaster",
+      "members": [
+        {
+          "name": "Ricaabu",
+          "description": "Podcaster",
+          "twitter": ""
+        },
+        {
+          "name": "Podcaster 2",
+          "description": "Another Podcaster"
+        }
+      ]
+    },
+    {
+      "role": "Values",
+      "members": [
+        {
+          "name": "Hen",
+          "description": "Values Manager",
+          "twitter": ""
+        },
+        {
+          "name": "Values 2",
+          "description": "Another Values Manager"
+        }
+      ]
+    },
+    {
+      "role": "Head Designer",
+      "members": [
+        {
+          "name": "Saikopan",
+          "description": "Graphics King",
+          "twitter": "https://twitter.com/xSaikopan"
+        },
+        {
+          "name": "Head Designer 2",
+          "description": "Another Head Designer"
+        }
+      ]
+    },
+    {
+      "role": "Wired Master",
+      "members": [
+        {
+          "name": "Myetzo",
+          "description": "Wired Master",
+          "twitter": ""
+        },
+        {
+          "name": "10pts",
+          "description": "Another Wired Master"
+        }
+      ]
+    },
+    {
+      "role": "Builder",
+      "members": [
+        {
+          "name": "Builder 1",
+          "description": "Builder",
+          "twitter": ""
+        },
+        {
+          "name": "Builder 2",
+          "description": "Another Builder"
+        }
+      ]
+    },
+    {
+      "role": "Graphics Designer",
+      "members": [
+        {
+          "name": "Graphics Designer 1",
+          "description": "Graphics Designer",
+          "twitter": ""
+        },
+        {
+          "name": "Graphics Designer 2",
+          "description": "Another Graphics Designer"
+        }
+      ]
+    },
+    {
+      "role": "Developer",
+      "members": [
+        {
+          "name": "Developer 1",
+          "description": "Developer",
+          "twitter": ""
+        },
+        {
+          "name": "Developer 2",
+          "description": "Another Developer"
+        }
+      ]
+    },
+    {
+      "role": "Server Developer",
+      "members": [
+        {
+          "name": "Server Developer 1",
+          "description": "Server Developer",
+          "twitter": ""
+        },
+        {
+          "name": "Server Developer 2",
+          "description": "Another Server Developer"
+        }
+      ]
+    },
+    {
+      "role": "Moderator",
+      "members": [
+        {
+          "name": "Moderator 1",
+          "description": "Moderator",
+          "twitter": ""
+        },
+        {
+          "name": "Moderator 2",
+          "description": "Another Moderator"
+        }
+      ]
+    },
+    {
+      "role": "Staff",
+      "members": [
+        {
+          "name": "Staff 1",
+          "description": "Staff",
+          "twitter": ""
+        },
+        {
+          "name": "Staff 2",
+          "description": "Another Staff"
+        }
+      ]
+    }
+  ]
+}

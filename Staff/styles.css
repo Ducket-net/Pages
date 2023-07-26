@@ -1,0 +1,269 @@
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-repeat: repeat;
+  background-position: 38px 44px;
+  background-color: #F1F1F1;
+  background-image: url("https://suite.ducket.net/6432-grid_2.png");
+  margin: 10px;
+  padding: 0;
+}
+
+.announcement-bar {
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 41.5px;
+  padding: -1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+.announcement-text {
+  font-size: 14px;
+  font-weight: Light;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 19px !important;
+  height: 19px !important;
+  margin-right: 3px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.staff-list-container {
+  max-width: 408px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1F1F1F;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-family: "Lato", sans-serif;
+  background-image: url("https://suite.ducket.net/6432-grid_2.png");
+  background-repeat: repeat;
+  background-position: 38px 44px;
+}
+
+.list-container {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative; /* Ensure proper stacking of elements */
+}
+
+.avatar-image {
+  width: 60px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 3;
+}
+
+span {
+  font-size: 16px;
+}
+
+/* Button Styles for Different Roles */
+.button-container li {
+  position: relative;
+  height: 60px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.button-container li::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 5px; /* Position the stripe above the button */
+  left: 5px; /* Add some negative left value to align the stripe with the border */
+  width: calc(100% + 10px); /* Add 10px to cover the entire button width with the stripe */
+  height: 5px; /* Height of the stripe */
+  background-color: rgba(255, 255, 255, 0.2); /* White color with slight transparency (adjust the alpha value as needed) */
+  z-index: 1; /* Ensure the stripe is above the button */
+}
+.button-container li::after {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  right: 0; /* Position the overlay on the right side */
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), var(--button-color)); /* Update the gradient color to use the custom color */
+  border-radius: 10px; /* Match the border radius of the button */
+  z-index: 1; /* Ensure the overlay is above the background image */
+}
+.button-container li:hover {
+  /* Add the hover effect to move the background image to the right */
+  background-position: 0px 80px;
+}
+.button-container li:hover .avatar-image {
+  /* Scale the avatar image back to its original size on hover */
+  transform: scale(1.2);
+  /* Move the image up on hover */
+  margin-top: -5;
+}
+.button-container li:hover span {
+  /* Move the text to the right on hover */
+  transform: translateX(10px);
+}
+
+.button-container li span {
+  z-index: 2;
+  text-shadow: 1px 1px 2px black;
+  /* Add a transition to move the text to the right */
+  transition: transform 0.2s ease-out;
+}
+
+/* Specific colors for each role */
+.owner-button { --button-color: #5bbafa; /* Light Blue */ }
+.general-manager-button { --button-color: #eaf054; /* Yellow */ }
+.events-manager-button { --button-color: #be66f3; /* Lime Green */ }
+.social-manager-button { --button-color: #a86ff8; /* Gold */ }
+.community-events-manager-button { --button-color: #9B59B6; /* Purple */ }
+.podcaster-button { --button-color: #cfbe15; /* Orange Red */ }
+.developer-button { --button-color: #00CED1; /* Dark Turquoise */ }
+.moderator-button { --button-color: #FF8C00; /* Dark Orange */ }
+.head-designer-button { --button-color: #7CFD9E; /* Sea Green */ }
+.graphics-designer-button { --button-color: #FF6347; /* Tomato */ }
+.server-developer-button { --button-color: #4682B4; /* Steel Blue */ }
+.wired-master-button { --button-color: #9932CC; /* Dark Orchid */ }
+.values-button { --button-color: #54ABC2; /* Gold */ }
+.builder-button { --button-color: #000080; /* Navy */ }
+.room-builder-button { --button-color: #A9A9A9; /* Dark Gray */ }
+.events-assistant-button { --button-color: #008000; /* Green */ }
+.events-host-button { --button-color: #71368A; /* Orange Red */ }
+.news-manager-button { --button-color: #ff992b; /* Orange Red */ }
+.staff-button { --button-color: #800080; /* Purple */ }
+
+/* Set background image for each button */
+.owner-button { background-image: url("http://localhost:8000/images/web_view_bg_cn2.gif"); }
+.general-manager-button { background-image: url("http://localhost:8000/images/web_view_bg_ru.gif"); }
+.events-manager-button { background-image: url("http://localhost:8000/images/lpromo_Blog_Promo.png"); }
+.social-manager-button { background-image: url("http://localhost:8000/images/lpromo_ny2016.png"); }
+.community-events-manager-button { background-image: url("path/to/community-events-manager-button-image.jpg"); }
+.podcaster-button { background-image: url("path/to/ducket-podcaster-button-image.jpg"); }
+.developer-button { background-image: url("path/to/ducket-developer-button-image.jpg"); }
+.moderator-button { background-image: url("path/to/moderator-button-image.jpg"); }
+.head-designer-button { background-image: url("path/to/head-designer-button-image.jpg"); }
+.graphics-designer-button { background-image: url("path/to/graphics-designer-button-image.jpg"); }
+.server-developer-button { background-image: url("path/to/server-developer-button-image.jpg"); }
+.wired-master-button { background-image: url("path/to/ducket-wired-master-button-image.jpg"); }
+.values-button { background-image: url("path/to/ducket-values-button-image.jpg"); }
+.builder-button { background-image: url("path/to/ducket-builder-button-image.jpg"); }
+.room-builder-button { background-image: url("path/to/room-builder-button-image.jpg"); }
+.events-assistant-button { background-image: url("path/to/events-assistant-button-image.jpg"); }
+.events-host-button { background-image: url("path/to/events-host-button-image.jpg"); }
+.news-manager-button { background-image: url("path/to/ducket-staff-button-image.jpg"); }
+.staff-button { background-image: url("path/to/ducket-staff-button-image.jpg"); }
+
+/* Custom CSS for member descriptions */
+.member-description {
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+  line-height: 1.2;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease, right 0.3s;
+  z-index: 2; /* Set the z-index to 2 to ensure it is above other elements */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Add black outline */
+}
+
+li:hover .member-description {
+  visibility: visible; /* Show on hover */
+  opacity: 1; /* Fade in */
+  right: 10%; /* Slide in from the right */
+}
+.back-to-home {
+  font-size: 14px;
+  font-weight: itatlic;
+  text-decoration: none;
+  color: #6B7280;
+  margin-left: -5px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+/* Use the "fa-arrow-left" icon */
+.back-to-home::before {
+  font-family: "Font Awesome 6 Free"; /* Use the Font Awesome font family */
+  content: "\f060"; /* Unicode of the "fa-arrow-left" icon */
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.back-to-home:hover {
+  color: #374151;
+}
+
+.back-to-home:active {
+  /* Add active effect if needed */
+}
+.twitter-container {
+  display: none; 
+  position: fixed; 
+  background-color: #26a7de;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  z-index: 1;
+  transform: translateX(50%); 
+  transition: transform 0.3s ease-in-out;
+}
+.twitter-container.show-twitter {
+  display: block; 
+  transform: translateX(0); 
+  right: 671px; 
+}
