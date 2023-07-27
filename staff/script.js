@@ -201,6 +201,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     staffList.textContent = "Failed to load staff data.";
   }
 
-  // Check for updates every 60 seconds
-  setInterval(fetchStaffData, 60000);
+  // Check for updates every 10 seconds
+  setInterval(fetchStaffData, 10000);
 });
