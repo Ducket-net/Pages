@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   async function fetchStaffData() {
     try {
-      const response = await fetch("http://localhost:8000/Staff.json");
+      const response = await fetch("/Staff/Staff.json");
       if (!response.ok) {
         throw new Error("Failed to fetch staff data.");
       }
@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   
   try {
-    const response = await fetch("http://localhost:8000/Staff.json");
+    const response = await fetch("/Staff/Staff.json");
     const data = await response.json();
     displayStaffList(data);
   } catch (error) {
