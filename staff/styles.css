@@ -176,21 +176,21 @@ span {
 .general-manager-button { background-image: url("/staff/images/web_view_bg_ru.gif"); }
 .events-manager-button { background-image: url("/staff/images/lpromo_Blog_Promo.png"); }
 .social-manager-button { background-image: url("/staff/images/lpromo_ny2016.png"); }
-.community-events-manager-button { background-image: url("/staff/images/transparent.png"); }
-.podcaster-button { background-image: url("/staff/images/transparent.png"); }
-.developer-button { background-image: url("/staff/images/transparent.png"); }
-.moderator-button { background-image: url("/staff/images/transparent.png"); }
-.head-designer-button { background-image: url("/staff/images/transparent.png"); }
-.graphics-designer-button { background-image: url("/staff/images/transparent.png"); }
-.server-developer-button { background-image: url("/staff/images/transparent.png"); }
-.wired-master-button { background-image: url("/staff/images/transparent.png"); }
-.values-button { background-image: url("/staff/images/transparent.png"); }
-.builder-button { background-image: url("/staff/images/transparent.png"); }
-.room-builder-button { background-image: url("/staff/images/transparent.png"); }
-.events-assistant-button { background-image: url("/staff/images/transparent.png"); }
-.events-host-button { background-image: url("/staff/images/transparent.png"); }
-.news-manager-button { background-image: url("/staff/images/transparent.png"); }
-.staff-button { background-image: url("/staff/images/transparent.png"); }
+.community-events-manager-button { background-image: url("/staff/images/transparent.gif"); }
+.podcaster-button { background-image: url("/staff/images/transparent.gif"); }
+.developer-button { background-image: url("/staff/images/transparent.gif"); }
+.moderator-button { background-image: url("/staff/images/transparent.gif"); }
+.head-designer-button { background-image: url("/staff/images/transparent.gif"); }
+.graphics-designer-button { background-image: url("/staff/images/transparent.gif"); }
+.server-developer-button { background-image: url("/staff/images/transparent.gif"); }
+.wired-master-button { background-image: url("/staff/images/transparent.gif"); }
+.values-button { background-image: url("/staff/images/transparent.gif"); }
+.builder-button { background-image: url("/staff/images/transparent.gif"); }
+.room-builder-button { background-image: url("/staff/images/transparent.gif"); }
+.events-assistant-button { background-image: url("/staff/images/transparent.gif"); }
+.events-host-button { background-image: url("/staff/images/transparent.gif"); }
+.news-manager-button { background-image: url("/staff/images/transparent.gif"); }
+.staff-button { background-image: url("/staff/images/transparent.gif"); }
 
 .member-description {
   font-size: 14px;
