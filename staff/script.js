@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           twitterContainer.appendChild(twitterLink);
 
           const twitterLogo = document.createElement("img");
-          twitterLogo.src = "/images/twitter2.png"; // Replace with the actual path to your Twitter logo image
+          twitterLogo.src = "staff/images/twitter2.png"; // Replace with the actual path to your Twitter logo image
           twitterLogo.alt = "Twitter";
           twitterLink.appendChild(twitterLogo);
 
@@ -201,6 +201,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     staffList.textContent = "Failed to load staff data.";
   }
 
-  // Check for updates every 10 seconds
-  setInterval(fetchStaffData, 10000);
+  // Check for updates every 5 minutes - to stop with us being blocked from habbo
+  setInterval(fetchStaffData, 300000);
 });
