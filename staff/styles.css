@@ -172,25 +172,25 @@ span {
 .news-manager-button { --button-color: #ff992b; }
 .staff-button { --button-color: #800080; }
 
-.owner-button { background-image: url("/Staff/images/web_view_bg_cn2.gif"); }
-.general-manager-button { background-image: url("/Staff/images/web_view_bg_ru.gif"); }
-.events-manager-button { background-image: url("/Staff/images/lpromo_Blog_Promo.png"); }
-.social-manager-button { background-image: url("/Staff/images/lpromo_ny2016.png"); }
-.community-events-manager-button { background-image: url("path/to/community-events-manager-button-image.jpg"); }
-.podcaster-button { background-image: url("path/to/ducket-podcaster-button-image.jpg"); }
-.developer-button { background-image: url("path/to/ducket-developer-button-image.jpg"); }
-.moderator-button { background-image: url("path/to/moderator-button-image.jpg"); }
-.head-designer-button { background-image: url("path/to/head-designer-button-image.jpg"); }
-.graphics-designer-button { background-image: url("path/to/graphics-designer-button-image.jpg"); }
-.server-developer-button { background-image: url("path/to/server-developer-button-image.jpg"); }
-.wired-master-button { background-image: url("path/to/ducket-wired-master-button-image.jpg"); }
-.values-button { background-image: url("path/to/ducket-values-button-image.jpg"); }
-.builder-button { background-image: url("path/to/ducket-builder-button-image.jpg"); }
-.room-builder-button { background-image: url("path/to/room-builder-button-image.jpg"); }
-.events-assistant-button { background-image: url("path/to/events-assistant-button-image.jpg"); }
-.events-host-button { background-image: url("path/to/events-host-button-image.jpg"); }
-.news-manager-button { background-image: url("path/to/ducket-staff-button-image.jpg"); }
-.staff-button { background-image: url("path/to/ducket-staff-button-image.jpg"); }
+.owner-button { background-image: url("/staff/images/web_view_bg_cn2.gif"); }
+.general-manager-button { background-image: url("/staff/images/web_view_bg_ru.gif"); }
+.events-manager-button { background-image: url("/staff/images/lpromo_Blog_Promo.png"); }
+.social-manager-button { background-image: url("/staff/images/lpromo_ny2016.png"); }
+.community-events-manager-button { background-image: url("/staff/images/transparent.png"); }
+.podcaster-button { background-image: url("/staff/images/transparent.png"); }
+.developer-button { background-image: url("/staff/images/transparent.png"); }
+.moderator-button { background-image: url("/staff/images/transparent.png"); }
+.head-designer-button { background-image: url("/staff/images/transparent.png"); }
+.graphics-designer-button { background-image: url("/staff/images/transparent.png"); }
+.server-developer-button { background-image: url("/staff/images/transparent.png"); }
+.wired-master-button { background-image: url("/staff/images/transparent.png"); }
+.values-button { background-image: url("/staff/images/transparent.png"); }
+.builder-button { background-image: url("/staff/images/transparent.png"); }
+.room-builder-button { background-image: url("/staff/images/transparent.png"); }
+.events-assistant-button { background-image: url("/staff/images/transparent.png"); }
+.events-host-button { background-image: url("/staff/images/transparent.png"); }
+.news-manager-button { background-image: url("/staff/images/transparent.png"); }
+.staff-button { background-image: url("/staff/images/transparent.png"); }
 
 .member-description {
   font-size: 14px;
