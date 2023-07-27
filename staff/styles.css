@@ -172,10 +172,10 @@ span {
 .news-manager-button { --button-color: #ff992b; }
 .staff-button { --button-color: #800080; }
 
-.owner-button { background-image: url("http://localhost:8000/images/web_view_bg_cn2.gif"); }
-.general-manager-button { background-image: url("http://localhost:8000/images/web_view_bg_ru.gif"); }
-.events-manager-button { background-image: url("http://localhost:8000/images/lpromo_Blog_Promo.png"); }
-.social-manager-button { background-image: url("http://localhost:8000/images/lpromo_ny2016.png"); }
+.owner-button { background-image: url("/Staff/images/web_view_bg_cn2.gif"); }
+.general-manager-button { background-image: url("/Staff/images/web_view_bg_ru.gif"); }
+.events-manager-button { background-image: url("/Staff/images/lpromo_Blog_Promo.png"); }
+.social-manager-button { background-image: url("/Staff/images/lpromo_ny2016.png"); }
 .community-events-manager-button { background-image: url("path/to/community-events-manager-button-image.jpg"); }
 .podcaster-button { background-image: url("path/to/ducket-podcaster-button-image.jpg"); }
 .developer-button { background-image: url("path/to/ducket-developer-button-image.jpg"); }
