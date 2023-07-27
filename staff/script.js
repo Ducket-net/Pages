@@ -201,6 +201,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     staffList.textContent = "Failed to load staff data.";
   }
 
-  // Check for updates every 5 minutes - to stop with us being blocked from habbo
-  setInterval(fetchStaffData, 300000);
+  // Check for updates every 10 secs
+  setInterval(fetchStaffData, 10000);
 });
