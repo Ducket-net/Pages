@@ -9,8 +9,8 @@
           "twitter": "https://twitter.com/LeeSafeHabbo"
         },
         {
-          "name": "QoQ",
-          "description": "Wiswim - Founder",
+          "name": "qoq",
+          "description": "WesWim - Founder",
           "twitter": "https://twitter.com/wes_wim"
         }
       ]
@@ -26,6 +26,18 @@
         {
           "name": "General Manager 2",
           "description": "Another General Manager"
+        },
+        {
+          "name": "General Manager 3",
+          "description": "Another General Manager"
+        },
+        {
+          "name": "General Manager 4",
+          "description": "Another General Manager"
+        },
+        {
+          "name": "General Manager 5",
+          "description": "Another General Manager"
         }
       ]
     },
@@ -40,6 +52,18 @@
         {
           "name": "Events Manager 2",
           "description": "Another Events Manager"
+        },
+        {
+          "name": "Events Manager 3",
+          "description": "Another Events Manager"
+        },
+        {
+          "name": "Events Manager 4",
+          "description": "Another Events Manager"
+        },
+        {
+          "name": "Events Manager 5",
+          "description": "Another Events Manager"
         }
       ]
     },
@@ -49,10 +73,22 @@
         {
           "name": "AmySkates...",
           "description": "Community Events Manager",
-          "twitter": ""
+          "twitter": "https://twitter.com/SkatesHabbo"
         },
         {
           "name": "Community Manager 2",
+          "description": "Another Community Events Manager"
+        },
+        {
+          "name": "Community Manager 3",
+          "description": "Another Community Events Manager"
+        },
+        {
+          "name": "Community Manager 4",
+          "description": "Another Community Events Manager"
+        },
+        {
+          "name": "Community Manager 5",
           "description": "Another Community Events Manager"
         }
       ]
@@ -68,6 +104,18 @@
         {
           "name": "Events Assistant 2",
           "description": "Another Events Assistant"
+        },
+        {
+          "name": "Events Assistant 3",
+          "description": "Another Events Assistant"
+        },
+        {
+          "name": "Events Assistant 4",
+          "description": "Another Events Assistant"
+        },
+        {
+          "name": "Events Assistant 5",
+          "description": "Another Events Assistant"
         }
       ]
     },
@@ -77,10 +125,22 @@
         {
           "name": "Aloeveran",
           "description": "News Manager",
-          "twitter": ""
+          "twitter": "https://twitter.com/Aloeveranhabbo"
         },
         {
           "name": "News Manager 2",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 3",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 4",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 5",
           "description": "Another News Manager"
         }
       ]
@@ -89,12 +149,24 @@
       "role": "Social Manager",
       "members": [
         {
-          "name": "xJessyx",
+          "name": "Jessyy",
           "description": "Social Manager",
           "twitter": "https://twitter.com/JessyyHabbo"
         },
         {
           "name": "Social Manager 2",
+          "description": "Another Social Manager"
+        },
+        {
+          "name": "Social Manager 3",
+          "description": "Another Social Manager"
+        },
+        {
+          "name": "Social Manager 4",
+          "description": "Another Social Manager"
+        },
+        {
+          "name": "Social Manager 5",
           "description": "Another Social Manager"
         }
       ]
@@ -110,6 +182,19 @@
         {
           "name": "Aloeveran",
           "description": "Events Host"
+          "twitter": "https://twitter.com/Aloeveranhabbo"
+        },
+        {
+          "name": "Summersums",
+          "description": "Events Host"
+        },
+        {
+          "name": "Events Host 4",
+          "description": "Another Events Host"
+        },
+        {
+          "name": "Events Host 5",
+          "description": "Another Events Host"
         }
       ]
     },
@@ -124,6 +209,18 @@
         {
           "name": "Podcaster 2",
           "description": "Another Podcaster"
+        },
+        {
+          "name": "Podcaster 3",
+          "description": "Another Podcaster"
+        },
+        {
+          "name": "Podcaster 4",
+          "description": "Another Podcaster"
+        },
+        {
+          "name": "Podcaster 5",
+          "description": "Another Podcaster"
         }
       ]
     },
@@ -133,10 +230,22 @@
         {
           "name": "Hen",
           "description": "Values Manager",
-          "twitter": ""
+          "twitter": "https://twitter.com/HenHabbo"
         },
         {
           "name": "Values 2",
+          "description": "Another Values Manager"
+        },
+        {
+          "name": "Values 3",
+          "description": "Another Values Manager"
+        },
+        {
+          "name": "Values 4",
+          "description": "Another Values Manager"
+        },
+        {
+          "name": "Values 5",
           "description": "Another Values Manager"
         }
       ]
@@ -152,6 +261,18 @@
         {
           "name": "Head Designer 2",
           "description": "Another Head Designer"
+        },
+        {
+          "name": "Head Designer 3",
+          "description": "Another Head Designer"
+        },
+        {
+          "name": "Head Designer 4",
+          "description": "Another Head Designer"
+        },
+        {
+          "name": "Head Designer 5",
+          "description": "Another Head Designer"
         }
       ]
     },
@@ -165,6 +286,18 @@
         },
         {
           "name": "10pts",
+          "description": "Wired Master"
+        },
+        {
+          "name": "Wired Master 3",
+          "description": "Another Wired Master"
+        },
+        {
+          "name": "Wired Master 4",
+          "description": "Another Wired Master"
+        },
+        {
+          "name": "Wired Master 5",
           "description": "Another Wired Master"
         }
       ]
@@ -180,6 +313,18 @@
         {
           "name": "Builder 2",
           "description": "Another Builder"
+        },
+        {
+          "name": "Builder 3",
+          "description": "Another Builder"
+        },
+        {
+          "name": "Builder 4",
+          "description": "Another Builder"
+        },
+        {
+          "name": "Builder 5",
+          "description": "Another Builder"
         }
       ]
     },
@@ -193,6 +338,18 @@
         },
         {
           "name": "Graphics Designer 2",
+          "description": "Another Graphics Designer"
+        },
+        {
+          "name": "Graphics Designer 3",
+          "description": "Another Graphics Designer"
+        },
+        {
+          "name": "Graphics Designer 4",
+          "description": "Another Graphics Designer"
+        },
+        {
+          "name": "Graphics Designer 5",
           "description": "Another Graphics Designer"
         }
       ]
@@ -208,6 +365,18 @@
         {
           "name": "Developer 2",
           "description": "Another Developer"
+        },
+        {
+          "name": "Developer 3",
+          "description": "Another Developer"
+        },
+        {
+          "name": "Developer 4",
+          "description": "Another Developer"
+        },
+        {
+          "name": "Developer 5",
+          "description": "Another Developer"
         }
       ]
     },
@@ -221,6 +390,18 @@
         },
         {
           "name": "Server Developer 2",
+          "description": "Another Server Developer"
+        },
+        {
+          "name": "Server Developer 3",
+          "description": "Another Server Developer"
+        },
+        {
+          "name": "Server Developer 4",
+          "description": "Another Server Developer"
+        },
+        {
+          "name": "Server Developer 5",
           "description": "Another Server Developer"
         }
       ]
@@ -236,6 +417,18 @@
         {
           "name": "Moderator 2",
           "description": "Another Moderator"
+        },
+        {
+          "name": "Moderator 3",
+          "description": "Another Moderator"
+        },
+        {
+          "name": "Moderator 4",
+          "description": "Another Moderator"
+        },
+        {
+          "name": "Moderator 5",
+          "description": "Another Moderator"
         }
       ]
     },
@@ -249,6 +442,18 @@
         },
         {
           "name": "Staff 2",
+          "description": "Another Staff"
+        },
+        {
+          "name": "Staff 3",
+          "description": "Another Staff"
+        },
+        {
+          "name": "Staff 4",
+          "description": "Another Staff"
+        },
+        {
+          "name": "Staff 5",
           "description": "Another Staff"
         }
       ]
