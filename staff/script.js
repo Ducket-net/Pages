@@ -202,5 +202,5 @@ document.addEventListener("DOMContentLoaded", async function () {
   }
 
   // Check for updates every 10 secs
-  setInterval(fetchStaffData, 10000);
+  setInterval(fetchStaffData, 9900);
 });
