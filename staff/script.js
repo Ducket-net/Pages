@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       const roleMembers = role.members;
 
       // Filter out members that are placeholders
-      const filteredMembers = roleMembers.filter(member => !/\s/.test(member.name));
+      const filteredMembers = roleMembers.filter(member => /^[^\s]+\d*$/.test(member.name));
       if (filteredMembers.length === 0) {
         continue; 
       }
