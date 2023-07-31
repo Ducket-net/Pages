@@ -189,11 +189,6 @@
           "description": "Events Host"
         },
         {
-          "name": "Shannonhotty12",
-          "description": "Events Host",
-          "twitter": "https://twitter.com/ShanHabbox"
-        },
-        {
           "name": ",Yaz",
           "description": "Events Host",
           "twitter": "https://twitter.com/YazHabbo"
@@ -202,6 +197,11 @@
           "name": "Slobbering",
           "description": "Events Host",
           "twitter": "https://twitter.com/elbowshabbo"
+        },
+        {
+          "name": "Shannonhotty12",
+          "description": "Events Host",
+          "twitter": "https://twitter.com/ShanHabbox"
         },
         {
           "name": "Concede",
