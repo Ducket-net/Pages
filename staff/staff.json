@@ -42,6 +42,32 @@
       ]
     },
     {
+      "role": "Events Manager",
+      "members": [
+        {
+          "name": "Laurennn",
+          "description": "Events Manager",
+          "twitter": "https://twitter.com/lauHabbo"
+        },
+        {
+          "name": "Events Manager 2",
+          "description": "Another Events Manager"
+        },
+        {
+          "name": "Events Manager 3",
+          "description": "Another Events Manager"
+        },
+        {
+          "name": "Events Manager 4",
+          "description": "Another Events Manager"
+        },
+        {
+          "name": "Events Manager 5",
+          "description": "Another Events Manager"
+        }
+      ]
+    },
+    {
       "role": "Social Manager",
       "members": [
         {
@@ -95,58 +121,6 @@
       ]
     },
     {
-      "role": "News Manager",
-      "members": [
-        {
-          "name": "Aloeveran",
-          "description": "News Manager",
-          "twitter": "https://twitter.com/Aloeveranhabbo"
-        },
-        {
-          "name": "News Manager 2",
-          "description": "Another News Manager"
-        },
-        {
-          "name": "News Manager 3",
-          "description": "Another News Manager"
-        },
-        {
-          "name": "News Manager 4",
-          "description": "Another News Manager"
-        },
-        {
-          "name": "News Manager 5",
-          "description": "Another News Manager"
-        }
-      ]
-    },
-    {
-      "role": "Events Manager",
-      "members": [
-        {
-          "name": "Laurennn",
-          "description": "Events Manager",
-          "twitter": "https://twitter.com/lauHabbo"
-        },
-        {
-          "name": "Events Manager 2",
-          "description": "Another Events Manager"
-        },
-        {
-          "name": "Events Manager 3",
-          "description": "Another Events Manager"
-        },
-        {
-          "name": "Events Manager 4",
-          "description": "Another Events Manager"
-        },
-        {
-          "name": "Events Manager 5",
-          "description": "Another Events Manager"
-        }
-      ]
-    },
-    {
       "role": "Community Events Manager",
       "members": [
         {
@@ -169,6 +143,32 @@
         {
           "name": "Community Manager 5",
           "description": "Another Community Events Manager"
+        }
+      ]
+    },
+    {
+      "role": "News Manager",
+      "members": [
+        {
+          "name": "Aloeveran",
+          "description": "News Manager",
+          "twitter": "https://twitter.com/Aloeveranhabbo"
+        },
+        {
+          "name": "News Manager 2",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 3",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 4",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 5",
+          "description": "Another News Manager"
         }
       ]
     },
