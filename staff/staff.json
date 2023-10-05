@@ -42,6 +42,85 @@
       ]
     },
     {
+      "role": "Social Manager",
+      "members": [
+        {
+          "name": "Keoma",
+          "description": "Social Manager",
+          "twitter": ""
+        },
+        {
+          "name": "Jessyy",
+          "description": "Social Manager",
+          "twitter": "https://twitter.com/JessyyHabbo"
+        },
+        {
+          "name": "Social Manager 3",
+          "description": "Another Social Manager"
+        },
+        {
+          "name": "Social Manager 4",
+          "description": "Another Social Manager"
+        },
+        {
+          "name": "Social Manager 5",
+          "description": "Another Social Manager"
+        }
+      ]
+    },
+    {
+      "role": "Head Designer",
+      "members": [
+        {
+          "name": "Saikopan",
+          "description": "Graphics King",
+          "twitter": "https://twitter.com/xSaikopan"
+        },
+        {
+          "name": "Head Designer 2",
+          "description": "Another Head Designer"
+        },
+        {
+          "name": "Head Designer 3",
+          "description": "Another Head Designer"
+        },
+        {
+          "name": "Head Designer 4",
+          "description": "Another Head Designer"
+        },
+        {
+          "name": "Head Designer 5",
+          "description": "Another Head Designer"
+        }
+      ]
+    },
+    {
+      "role": "News Manager",
+      "members": [
+        {
+          "name": "Aloeveran",
+          "description": "News Manager",
+          "twitter": "https://twitter.com/Aloeveranhabbo"
+        },
+        {
+          "name": "News Manager 2",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 3",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 4",
+          "description": "Another News Manager"
+        },
+        {
+          "name": "News Manager 5",
+          "description": "Another News Manager"
+        }
+      ]
+    },
+    {
       "role": "Events Manager",
       "members": [
         {
@@ -116,59 +195,6 @@
         {
           "name": "Events Assistant 5",
           "description": "Another Events Assistant"
-        }
-      ]
-    },
-    {
-      "role": "News Manager",
-      "members": [
-        {
-          "name": "Aloeveran",
-          "description": "News Manager",
-          "twitter": "https://twitter.com/Aloeveranhabbo"
-        },
-        {
-          "name": "News Manager 2",
-          "description": "Another News Manager"
-        },
-        {
-          "name": "News Manager 3",
-          "description": "Another News Manager"
-        },
-        {
-          "name": "News Manager 4",
-          "description": "Another News Manager"
-        },
-        {
-          "name": "News Manager 5",
-          "description": "Another News Manager"
-        }
-      ]
-    },
-    {
-      "role": "Social Manager",
-      "members": [
-        {
-          "name": "Keoma",
-          "description": "Social Manager",
-          "twitter": ""
-        },
-        {
-          "name": "Jessyy",
-          "description": "Social Manager",
-          "twitter": "https://twitter.com/JessyyHabbo"
-        },
-        {
-          "name": "Social Manager 3",
-          "description": "Another Social Manager"
-        },
-        {
-          "name": "Social Manager 4",
-          "description": "Another Social Manager"
-        },
-        {
-          "name": "Social Manager 5",
-          "description": "Another Social Manager"
         }
       ]
     },
@@ -265,32 +291,6 @@
         {
           "name": "Values 5",
           "description": "Another Values Manager"
-        }
-      ]
-    },
-    {
-      "role": "Head Designer",
-      "members": [
-        {
-          "name": "Saikopan",
-          "description": "Graphics King",
-          "twitter": "https://twitter.com/xSaikopan"
-        },
-        {
-          "name": "Head Designer 2",
-          "description": "Another Head Designer"
-        },
-        {
-          "name": "Head Designer 3",
-          "description": "Another Head Designer"
-        },
-        {
-          "name": "Head Designer 4",
-          "description": "Another Head Designer"
-        },
-        {
-          "name": "Head Designer 5",
-          "description": "Another Head Designer"
         }
       ]
     },
