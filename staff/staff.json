@@ -16,11 +16,11 @@
       ]
     },
     {
-      "role": "General Manager",
+      "role": "Co-Founder & General Manager",
       "members": [
         {
           "name": "Femq",
-          "description": "General Manager",
+          "description": "Co-Founder & General Manager",
           "twitter": "https://twitter.com/FemqHabbo"
         },
         {
@@ -45,9 +45,8 @@
       "role": "Events Manager",
       "members": [
         {
-          "name": "Laurennn",
-          "description": "Events Manager",
-          "twitter": "https://twitter.com/lauHabbo"
+          "name": "Events Manager 1",
+          "description": "Events Manager"
         },
         {
           "name": "Events Manager 2",
@@ -71,14 +70,12 @@
       "role": "Social Manager",
       "members": [
         {
-          "name": "Keoma",
-          "description": "Social Manager",
-          "twitter": ""
+          "name": "Social Manager 1",
+          "description": "Social Manager"
         },
         {
-          "name": "Jessyy",
-          "description": "Social Manager",
-          "twitter": "https://twitter.com/JessyyHabbo"
+          "name": "Social Manager 1",
+          "description": "Social Manager"
         },
         {
           "name": "Social Manager 3",
@@ -124,9 +121,8 @@
       "role": "Community Events Manager",
       "members": [
         {
-          "name": "AmySkates...",
-          "description": "Community Events Manager",
-          "twitter": "https://twitter.com/SkatesHabbo"
+          "name": "Community Manager 1",
+          "description": "Community Events Manager"
         },
         {
           "name": "Community Manager 2",
