@@ -24,8 +24,9 @@
           "twitter": "https://twitter.com/FemqHabbo"
         },
         {
-          "name": "General Manager 2",
-          "description": "Another General Manager"
+          "name": "Saikopan",
+          "description": "Co - Founder",
+          "twitter": "https://twitter.com/xSaikopan"
         },
         {
           "name": "General Manager 3",
@@ -198,9 +199,8 @@
       "role": "Events Host",
       "members": [
         {
-          "name": "Krystal",
-          "description": "Events Host",
-          "twitter": "https://twitter.com/KrystalHabbo"
+          "name": "Events Host",
+          "description": "Events Host"
         },
         {
           "name": "Aloeveran",
@@ -212,47 +212,34 @@
           "description": "Events Host"
         },
         {
-          "name": ",Yaz",
-          "description": "Events Host",
-          "twitter": "https://twitter.com/YazHabbo"
+          "name": "Events Host 3",
+          "description": "Events Host"
         },
         {
-          "name": "Events Host 1",
+          "name": "Events Host 4",
           "description": "Events Host",
           "twitter": ""
         },
         {
-          "name": ",Shan",
+          "name": "Events Host 5",
           "description": "Events Host",
-          "twitter": "https://twitter.com/ShanHabbox"
         },
         {
-          "name": "VelvetKitty",
-          "description": "Events Host",
-          "twitter": ""
+          "name": "Events Host 6",
+          "description": "Events Host"
         },
         {
-          "name": "Jessyy",
-          "description": "Events Host",
-          "twitter": "https://twitter.com/JessyyHabboo"
-        },
-        {
-          "name": "Events Host 2",
-          "description": "Events Host",
-          "twitter": ""
-        },
-        {
-          "name": "Eivets",
-          "description": "Events Host",
-          "twitter": "https://twitter.com/EivetsHabbo"
+          "name": "Events Host 7",
+          "description": "Events Host"
         },
         {
           "name": "Events Host 8",
-          "description": "Another Events Host"
+          "description": "Events Host",
+          "twitter": ""
         },
         {
           "name": "Events Host 9",
-          "description": "Another Events Host"
+          "description": "Events Host"
         },
         {
           "name": "Events Host 10",
@@ -277,6 +264,14 @@
         {
           "name": "Events Host 15",
           "description": "Another Events Host"
+        },
+        {
+          "name": "Events Host 16",
+          "description": "Another Events Host"
+        },
+        {
+          "name": "Events Host 17",
+          "description": "Another Events Host"
         }
       ]
     },
@@ -284,7 +279,7 @@
       "role": "Podcaster",
       "members": [
         {
-          "name": "Ricaabu",
+          "name": "Podcaster 1",
           "description": "Podcaster",
           "twitter": ""
         },
@@ -341,7 +336,7 @@
           "twitter": ""
         },
         {
-          "name": "10pts",
+          "name": "Wired Master 2",
           "description": "Wired Master"
         },
         {
